@@ -1,0 +1,68 @@
+Dependencies for Project 'final', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x517F1002)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list "startup_stm32f10x_hd.lst" --xref -o "startup_stm32f10x_hd.o" --depend "startup_stm32f10x_hd.d")
+F (.\lcd.c)(0x517F2D5A)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "lcd.o" --omf_browse "lcd.crf" --depend "lcd.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+I (lcd.h)(0x517F2768)
+I (ascii.h)(0x517BFCCA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB1A576)
+F (.\main.c)(0x517F0FE6)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+I (lcd.h)(0x517F2768)
+I (usart2.h)(0x517BFCCE)
+I (ps2_over_gpioc.h)(0x517BFCCC)
+I (code_to_ascii.h)(0x517BFCCA)
+I (terminal.h)(0x517C4074)
+I (dac.h)(0x517C37EE)
+F (.\ascii.c)(0x517BFCCA)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "ascii.o" --omf_browse "ascii.crf" --depend "ascii.d")
+I (ascii.h)(0x517BFCCA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB1A576)
+F (.\usart2.c)(0x517C44E6)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "usart2.o" --omf_browse "usart2.crf" --depend "usart2.d")
+I (usart2.h)(0x517BFCCE)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+F (.\ps2_over_gpioc.c)(0x517C4536)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "ps2_over_gpioc.o" --omf_browse "ps2_over_gpioc.crf" --depend "ps2_over_gpioc.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+I (ps2_over_gpioc.h)(0x517BFCCC)
+I (usart2.h)(0x517BFCCE)
+I (code_to_ascii.h)(0x517BFCCA)
+I (lcd.h)(0x517F2768)
+F (.\terminal.c)(0x5181DA1A)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "terminal.o" --omf_browse "terminal.crf" --depend "terminal.d")
+I (terminal.h)(0x517C4074)
+I (lcd.h)(0x517F2768)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+I (ps2_over_gpioc.h)(0x517BFCCC)
+I (dac.h)(0x517C37EE)
+F (.\code_to_ascii.c)(0x517BFCCA)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "code_to_ascii.o" --omf_browse "code_to_ascii.crf" --depend "code_to_ascii.d")
+I (code_to_ascii.h)(0x517BFCCA)
+F (.\dac.c)(0x5182D7B2)(-c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -o "dac.o" --omf_browse "dac.crf" --depend "dac.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+I (dac.h)(0x517C37EE)

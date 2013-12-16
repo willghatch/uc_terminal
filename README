@@ -1,0 +1,18 @@
+Hello dear person who wants to look at and/or compile and use our project code!
+
+This project was to build a serial terminal using a stm32f10x microcontroller.  It was a class project.  Due to weird conditions in which we wrote it (mostly in a school lab on a Windows box) and to not bother synchronizing knowledge of a version control system (my partner was only a Sophomore, I believe, and hadn't been exposed to git or the like yet, and I didn't want to make him learn, and I didn't want to bother figuring out how to use it on Windows), we used no version control or anything.  We did this almost a year ago, and I just now decided to put it up on Github for the heck of it.  I don't actually remember what actually connected to which pins, but it should be easy to read in the source if anyone cares.  I'm mostly putting it up just to say, "Hey, I did this."  I don't think it will see any use.
+
+The Keil uVision IDE/compiler we used for this class sometimes gets rid of the options selected when you load a project file on a new computer (I'm not sure why).  So if you're using that you may have to set options such as optimizations, etc.  We got best results with optimization level 3.  Don't mind the kludges.  It's a school project that (presumably) nobody will ever use that had a tight schedule.  But it was a fun learning experience.
+
+I don't know how to build it aside from using the Keil IDE.  The microcontroller we were using didn't seem to have any open source tools for flashing, etc. so I just went ahead and got it working in its Windows build process.
+
+This project requires the file startup_stm32f10x_hd.s to build.  It came on the microcontroller CD.  I doubt they'll be happy with me redistributing it.  So I won't.
+
+We have a couple of known bugs that we never fixed -- sometimes there are hard faults.  The debugger wasn't giving us a line number, so we just decided to plow forward and forget about fixing it.  We had immovable deadlines and low quality constraints.
+
+If you have any questions or comments you can contact me (William) at willghatch@gmail.com.  Our space in our class wiki is at https://spaces.usu.edu/display/ece3710/Serial+Terminal and a video demo is at http://youtu.be/Ixhj3Bes7n0
+
+This Terminal was written by William Hatch and Scott Sorensen, with a bit of class starter code used with permission.
+
+Have fun!
+
